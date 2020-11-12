@@ -1,0 +1,85 @@
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.bg-light-blue{
+    background-color: var(--light-blue) !important;
+}
+
+.bg-primario{
+    background-color: rgba(0, 123, 255, .1) !important;
+}
+
+#sidebar-container {
+    min-height: 100vh;
+    /* margin-left: -12.5rem; */
+    transition: margin .25s ease-in-out;
+}
+
+#sidebar-container .logo{
+    padding: .875rem 1.25rem;
+    font-size: 1.2rem;
+}
+#sidebar-container .menu{
+    width: 12.5rem;
+}
+
+#sidebar-container .menu .menu--icon{
+    /* padding-right: 0.2rem; */
+    margin-right: 0.5rem;
+    font-size: 1.2rem; 
+}
+
+.shadow-card{
+    box-shadow: 0 0 1.25rem rgba(11, 37, 75, .05); 
+    
+}
+
+.shadow-hover{
+    transition: 1s ease-in-out;
+}
+
+.shadow-hover:hover{
+    transition: 1s ease-in-out;
+    box-shadow: 0 .5rem 1rem rgba(11, 37, 75, .10);
+}
+
+.circle {
+    height: 50px;
+    width: 50px;
+}
+
+.badge{
+    padding: 0.5rem 1rem;
+}
+.badge-primary{
+    background-color: rgba(0, 123, 255, 0.1) !important;
+}
+
+.badge-secondary{
+    background-color: var(--grey1) !important;
+    color: var(--primario) !important;
+}
+
+.table{
+    border-collapse: separate;
+    border-spacing: 0 .5rem;
+}
+
+table thead th {
+    border: 0 !important;
+}
+
+table tbody tr{
+    background-color: var(--light1);
+}
+
+table tbody tr:hover{
+    background-color: rgba(0, 123, 255, 0.1);
+}
+
+table tbody td {
+    border-top: 0 !important;
+    line-height: 1.2;
+}
